@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    width: 95;
+    background-color: rgb(238, 215, 230);
+}
+
+body div.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 10px 0;
+}
+body div.titulo .cobrinha {
+    width: 4rem;
+    height: 4rem;
+    margin: 10px;
+}
