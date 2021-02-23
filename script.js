@@ -11,6 +11,7 @@ let food = {
     x: Math.floor(Math.random() * 15 + 1) * box,
     y: Math.floor(Math.random() * 15 + 1) * box
 }
+document.getElementById('rato').innerHTML = 
 
 function criarBG() {
     context.fillStyle = "rgb(252, 160, 206)"
